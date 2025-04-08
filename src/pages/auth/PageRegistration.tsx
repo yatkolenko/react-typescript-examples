@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import BaseInput from '@/components/base/BaseInput';
 import BaseButton from '@/components/base/BaseButton';
 import { Paths } from '@/routes/path.ts';
 import { Link } from 'react-router-dom';
 
-const RegisterForm: React.FC = () => {
+const RegisterForm = () => {
   const { t } = useTranslation('auth');
   const [formData, setFormData] = useState({
     name: '',

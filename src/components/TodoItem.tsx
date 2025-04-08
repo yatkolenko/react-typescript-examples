@@ -1,4 +1,3 @@
-import React from 'react';
 import { Todo } from '../models/models';
 import { toggleTodo, removeTodo } from '../store/slices/todoSlice';
 import { useAppDispatch } from '../store/hooks';
@@ -7,7 +6,7 @@ interface TodoItemProps {
   todo: Todo;
 }
 
-const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
+const TodoItem = ({ todo }: TodoItemProps) => {
   const dispatch = useAppDispatch();
 
   return (

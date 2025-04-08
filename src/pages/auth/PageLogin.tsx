@@ -5,7 +5,7 @@ import BaseButton from '@/components/base/BaseButton';
 import { Link } from 'react-router-dom';
 import { Paths } from '@/routes/path.ts';
 
-const LoginForm: React.FC = () => {
+const LoginForm = () => {
   const { t } = useTranslation('auth');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
