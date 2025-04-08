@@ -1,0 +1,169 @@
+{
+  "locales": {
+    "en": "EN",
+    "fr": "FR",
+    "ru": "RU"
+  },
+  "nav": {
+    "home": "Home",
+    "todos": "Todos",
+    "about": "About",
+    "profile": "Profile"
+  },
+  "login": {
+    "title": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign In",
+    "no_account": "Don't have an account?",
+    "create": "Create one",
+    "forgot": "Forgot password?",
+    "social": "Or sign in with"
+  },
+  "register": {
+    "title": "Create Account",
+    "name": "Full Name",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "submit": "Sign Up",
+    "have_account": "Already have an account?",
+    "login": "Sign In"
+  },
+  "social": {
+    "google": "Continue with Google",
+    "facebook": "Continue with Facebook",
+    "github": "Continue with GitHub"
+  },
+  "errors": {
+    "required": "This field is required",
+    "email": "Invalid email address",
+    "password_length": "Password must be at least 8 characters",
+    "password_match": "Passwords don't match"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register"
+  },
+  "home": {
+    "title": "Welcome to Our React App!",
+    "subtitle": "This is a sample homepage of our multi-page React application.",
+    "features": {
+      "title": "Discover Amazing Features",
+      "description": "Our application demonstrates modern React functionalities such as routing, state management with Redux, TypeScript integration, and styling with Tailwind CSS. Explore our Todo page to see how tasks can be managed and get a feel for our clean design."
+    },
+    "cta": {
+      "title": "Get Started",
+      "description": "Navigate to our Todo page to manage your tasks, or learn more about us by visiting the About page. Enjoy exploring and have a great experience!"
+    }
+  },
+  "todo": {
+    "title": "Todo List",
+    "placeholder": "Enter a new todo...",
+    "buttonText": "Add Todo",
+    "empty": "No todos available. Add one!"
+  },
+  "about": {
+    "heroTitle": "Our Journey",
+    "header": {
+      "title": "About Us",
+      "subtitle": "Learn more about our application and our team."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We strive to create innovative solutions that empower businesses and inspire change. Our team is dedicated to excellence and continuous improvement. With cutting-edge technology and a passion for creativity, we deliver products that make a difference."
+    },
+    "story": {
+      "title": "Our Story",
+      "description": "Founded by a group of visionary engineers and designers, our journey began with a small idea that quickly blossomed into a full-fledged company. Our commitment to quality, innovation, and customer satisfaction has set us apart in the competitive tech landscape. We are proud of our achievements and excited about what the future holds.",
+      "additional": "Whether you are a potential collaborator or simply curious about our work, we invite you to explore our projects and get in touch. Your feedback and ideas are always welcome."
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "members": {
+        "member1": {
+          "name": "Alice Johnson",
+          "role": "Lead Developer"
+        },
+        "member2": {
+          "name": "Bob Smith",
+          "role": "Project Manager"
+        },
+        "member3": {
+          "name": "Carol Davis",
+          "role": "UX/UI Designer"
+        }
+      }
+    }
+  },
+  "footer": {
+    "cta": {
+      "heading": "Get the latest news!",
+      "description": "Stay updated with our newest content, features and offers. Join our newsletter today!"
+    },
+    "form": {
+      "labelEmail": "Email",
+      "placeholderEmail": "john@rhcp.com",
+      "buttonText": "Sign Up"
+    },
+    "links": {
+      "services": {
+        "title": "Services",
+        "items": [
+          "1on1 Coaching",
+          "Company Review",
+          "Accounts Review",
+          "HR Consulting",
+          "SEO Optimisation"
+        ]
+      },
+      "company": {
+        "title": "Company",
+        "items": [
+          "About",
+          "Meet the Team",
+          "Accounts Review"
+        ]
+      },
+      "helpfulLinks": {
+        "title": "Helpful Links",
+        "items": [
+          "Contact",
+          "FAQs",
+          "Live Chat"
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "items": [
+          "Accessibility",
+          "Returns Policy",
+          "Refund Policy",
+          "Hiring-3 Statistics"
+        ]
+      },
+      "downloads": {
+        "title": "Downloads",
+        "items": [
+          "Marketing Calendar",
+          "SEO Infographics"
+        ]
+      }
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "github": "GitHub",
+      "dribbble": "Dribbble"
+    },
+    "copyright": "© 2022. Company Name. All rights reserved.",
+    "terms": {
+      "termsConditions": "Terms & Conditions",
+      "privacyPolicy": "Privacy Policy",
+      "cookies": "Cookies"
+    }
+  }
+}
+

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 // Login page component to simulate authentication
-const LoginPage: React.FC = () => {
+const LoginPage = () => {
   const navigate = useNavigate();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -21,33 +21,33 @@ const LoginPage: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 flex justify-center items-center min-h-screen">
-      <form onSubmit={handleLogin} className="w-full max-w-md bg-white shadow rounded p-6">
-        <h2 className="text-2xl font-semibold mb-4 text-center">Login</h2>
-        {error && <p className="text-red-500 mb-4">{error}</p>}
+    <div className="container mx-auto flex min-h-screen items-center justify-center p-4">
+      <form onSubmit={handleLogin} className="w-full max-w-md rounded bg-white p-6 shadow">
+        <h2 className="mb-4 text-center text-2xl font-semibold">Login</h2>
+        {error && <p className="mb-4 text-red-500">{error}</p>}
         <div className="mb-4">
-          <label className="block mb-1">Username</label>
+          <label className="mb-1 block">Username</label>
           <input
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Enter username"
-            className="w-full p-2 border rounded"
+            className="w-full rounded border p-2"
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-1">Password</label>
+          <label className="mb-1 block">Password</label>
           <input
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Enter password"
-            className="w-full p-2 border rounded"
+            className="w-full rounded border p-2"
           />
         </div>
         <button
           type="submit"
-          className="w-full p-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="w-full rounded bg-blue-500 p-2 text-white hover:bg-blue-600"
         >
           Login
         </button>

@@ -1,15 +1,15 @@
-import React, { useState, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { addTodo } from '../store/todoSlice';
+import { addTodo } from '../store/slices/todoSlice';
 import TodoItem from '../components/TodoItem';
+import { useTranslation } from 'react-i18next';
 
-// Todo page component with todo input and list
-const TodoPage: React.FC = () => {
+const TodoPage = () => {
+  const { t } = useTranslation();
   const dispatch = useAppDispatch();
   const todos = useAppSelector((state) => state.todos.todos);
   const [text, setText] = useState('');
 
-  // Handle adding a new todo item
   const handleAddTodo = useCallback(() => {
     if (text.trim()) {
       dispatch(addTodo(text));
@@ -19,25 +19,28 @@ const TodoPage: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h2 className="text-2xl font-semibold mb-4">Todo List</h2>
-      <div className="flex mb-4">
+      <h2 className="mb-4 text-2xl font-semibold">{t('todo.title')}</h2>
+      <div className="mb-4 flex">
         <input
           type="text"
           value={text}
           onChange={(e) => setText(e.target.value)}
-          placeholder="Enter a new todo..."
-          className="flex-1 p-2 border rounded"
+          placeholder={t('todo.placeholder')}
+          className="flex-1 rounded border p-2"
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') handleAddTodo();
+          }}
         />
         <button
           onClick={handleAddTodo}
-          className="ml-2 p-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="ml-2 rounded bg-blue-500 p-2 text-white hover:bg-blue-600"
         >
-          Add Todo
+          {t('todo.buttonText')}
         </button>
       </div>
-      <div className="bg-white shadow rounded">
+      <div className="rounded bg-white shadow">
         {todos.length === 0 ? (
-          <p className="p-4 text-gray-500">No todos available. Add one!</p>
+          <p className="p-4 text-gray-500">{t('todo.empty')}</p>
         ) : (
           todos.map((todo) => <TodoItem key={todo.id} todo={todo} />)
         )}

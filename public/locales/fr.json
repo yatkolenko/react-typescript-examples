@@ -1,0 +1,168 @@
+{
+  "locales": {
+    "en": "EN",
+    "fr": "FR",
+    "ru": "RU"
+  },
+  "nav": {
+    "home": "Accueil",
+    "todos": "Tâches",
+    "about": "À propos",
+    "profile": "Profil"
+  },
+  "login": {
+    "title": "Connexion",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "no_account": "Pas encore de compte ?",
+    "create": "Créer un compte",
+    "forgot": "Mot de passe oublié ?",
+    "social": "Ou connectez-vous avec"
+  },
+  "register": {
+    "title": "Créer un compte",
+    "name": "Nom complet",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirm_password": "Confirmer le mot de passe",
+    "submit": "S'inscrire",
+    "have_account": "Vous avez déjà un compte ?",
+    "login": "Se connecter"
+  },
+  "social": {
+    "google": "Continuer avec Google",
+    "facebook": "Continuer avec Facebook",
+    "github": "Continuer avec GitHub"
+  },
+  "errors": {
+    "required": "Ce champ est requis",
+    "email": "Adresse e-mail invalide",
+    "password_length": "Le mot de passe doit contenir au moins 8 caractères",
+    "password_match": "Les mots de passe ne correspondent pas"
+  },
+  "auth": {
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "register": "Inscription"
+  },
+  "home": {
+    "title": "Bienvenue dans notre application React !",
+    "subtitle": "Ceci est la page d'accueil de notre application React multi-pages.",
+    "features": {
+      "title": "Découvrez des fonctionnalités incroyables",
+      "description": "Notre application met en avant les fonctionnalités modernes de React telles que le routage, la gestion d'état avec Redux, l'intégration TypeScript et le style avec Tailwind CSS. Explorez la page Tâches pour découvrir comment gérer vos tâches et profiter d'un design épuré."
+    },
+    "cta": {
+      "title": "Commencer",
+      "description": "Accédez à la page Tâches pour gérer vos tâches, ou apprenez-en plus sur nous via la page À propos. Bonne exploration !"
+    }
+  },
+  "todo": {
+    "title": "Liste de tâches",
+    "placeholder": "Entrez une nouvelle tâche...",
+    "buttonText": "Ajouter",
+    "empty": "Aucune tâche disponible. Ajoutez-en une !"
+  },
+  "about": {
+    "heroTitle": "Notre parcours",
+    "header": {
+      "title": "À propos de nous",
+      "subtitle": "En savoir plus sur notre application et notre équipe."
+    },
+    "mission": {
+      "title": "Notre mission",
+      "description": "Nous créons des solutions innovantes qui stimulent les entreprises et inspirent le changement. Notre équipe s'engage pour l'excellence et l'amélioration continue."
+    },
+    "story": {
+      "title": "Notre histoire",
+      "description": "Fondée par des ingénieurs et designers passionnés, notre aventure a débuté avec une petite idée devenue une entreprise florissante. Nous sommes fiers de notre parcours et enthousiastes pour l'avenir.",
+      "additional": "Que vous soyez un partenaire potentiel ou un visiteur curieux, découvrez nos projets et contactez-nous. Vos idées sont les bienvenues !"
+    },
+    "team": {
+      "title": "Rencontrez notre équipe",
+      "members": {
+        "member1": {
+          "name": "Alice Johnson",
+          "role": "Développeuse principale"
+        },
+        "member2": {
+          "name": "Bob Smith",
+          "role": "Chef de projet"
+        },
+        "member3": {
+          "name": "Carol Davis",
+          "role": "Designer UX/UI"
+        }
+      }
+    }
+  },
+  "footer": {
+    "cta": {
+      "heading": "Restez informé !",
+      "description": "Recevez nos dernières actualités, fonctionnalités et offres. Abonnez-vous à notre newsletter !"
+    },
+    "form": {
+      "labelEmail": "E-mail",
+      "placeholderEmail": "jean@domain.fr",
+      "buttonText": "S'inscrire"
+    },
+    "links": {
+      "services": {
+        "title": "Services",
+        "items": [
+          "Coaching individuel",
+          "Audit d'entreprise",
+          "Revue des comptes",
+          "Conseil RH",
+          "Optimisation SEO"
+        ]
+      },
+      "company": {
+        "title": "Entreprise",
+        "items": [
+          "À propos",
+          "Notre équipe",
+          "Revue des comptes"
+        ]
+      },
+      "helpfulLinks": {
+        "title": "Liens utiles",
+        "items": [
+          "Contact",
+          "FAQ",
+          "Chat en direct"
+        ]
+      },
+      "legal": {
+        "title": "Mentions légales",
+        "items": [
+          "Accessibilité",
+          "Politique de retour",
+          "Politique de remboursement",
+          "Statistiques Hiring-3"
+        ]
+      },
+      "downloads": {
+        "title": "Téléchargements",
+        "items": [
+          "Calendrier marketing",
+          "Infographies SEO"
+        ]
+      }
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "github": "GitHub",
+      "dribbble": "Dribbble"
+    },
+    "copyright": "© 2022. Nom de l'entreprise. Tous droits réservés.",
+    "terms": {
+      "termsConditions": "Conditions générales",
+      "privacyPolicy": "Politique de confidentialité",
+      "cookies": "Cookies"
+    }
+  }
+}
